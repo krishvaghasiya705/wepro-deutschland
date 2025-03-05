@@ -1,0 +1,160 @@
+.Angetbotuploadimagcomponentmain {
+    max-width: 302px;
+    margin: 0 auto;
+
+    .Angetbotuploadimagcomponent {
+        display: grid;
+        grid-template-columns: 1fr 90px;
+        gap: 20px;
+        height: 124px;
+
+        .Angetbotuploadimagdiv {
+            width: 100%;
+            height: 100%;
+            border: 1px dashed #000;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Angetbotuploadimagdivicon {
+                width: 50px;
+                height: 50px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            span {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24.38px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #000;
+                display: block;
+                margin: 10px 0 0 0;
+            }
+
+            input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                cursor: pointer;
+            }
+        }
+
+        .Angetbotuploadimagcomponentblank {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: .2;
+            position: relative;
+            cursor: pointer;
+
+            .Angetbotuploadimagcomponentblankicondiv {
+                width: 50px;
+                height: 50px;
+            }
+
+            input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.Angetuplodedimagedivmain {
+    width: 100%;
+    max-width: 1040px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .Angetuploadedimagepreviewdivmain {
+        position: relative;
+        width: 192px;
+        height: 124px;
+
+        .Angebotuploadedimagedeleteicondiv {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 24px;
+            height: 24px;
+            background: #FFFFFF99;
+            box-shadow: 0px 0px 34px 0px #00000014;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            svg {
+                width: 8px;
+                height: 8px;
+
+                path {
+                    stroke: #000;
+                }
+            }
+        }
+    }
+
+    .Angetbotuploadimagcomponentblank {
+        width: 90px;
+        height: 124px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .2;
+        position: relative;
+        cursor: pointer;
+
+        .Angetbotuploadimagcomponentblankicondiv {
+            width: 50px;
+            height: 50px;
+        }
+
+        input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+    }
+}
+
+.Maximalpera {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000;
+    margin: 10px 0 0 0;
+}

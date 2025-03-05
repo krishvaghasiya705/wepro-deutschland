@@ -1,0 +1,98 @@
+.Commonmodalmain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #FFFFFF1A;
+    backdrop-filter: blur(44px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Commonmodalboxmain {
+        width: auto;
+        position: relative;
+        padding: 16px 16px 0 0;
+
+        .Commonmodalcrossicon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #fff;
+            box-shadow: 0px 0px 34px 0px #00000014;
+            border-radius: 50%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            svg {
+                width: 11px;
+                height: 11px;
+            }
+        }
+
+        .Commonmodalbox {
+            background-color: #fff;
+            box-shadow: 0px 0px 60px 0px #00000026;
+            border-radius: 20px;
+            padding: 60px;
+
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 30px;
+                line-height: 36px;
+                text-align: center;
+                color: #006037;
+                margin: 0 0 40px 0;
+            }
+
+            .Commonmodaltwobuttonmain {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin: 40px 0 0 0;
+
+                button {
+                    width: 100%;
+                    max-width: 194px;
+                    border-radius: 10px;
+                    padding: 20px 12px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #fff;
+                    cursor: pointer;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .Commonmodaltwobuttonone {
+                    background-color: #B9B9B9;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                        border-color: #000;
+                    }
+                }
+                .Commonmodaltwobuttontwo {
+                    background-color: #006037;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                        border-color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

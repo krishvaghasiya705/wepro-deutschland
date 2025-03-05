@@ -1,0 +1,96 @@
+.Homeherosectionmain {
+    // background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0.72) 100%);
+    // height: calc(100vh - 101px - 278px);
+    // height: calc(100% - 101px - 278px);
+    height: 100%;
+    padding: 50px 0 92px 0;
+
+    .Homeherosection {
+        display: flex;
+        justify-content: center;
+
+        .Homeherosectionboxmain {
+            width: 100%;
+            max-width: 575px;
+
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                text-align: center;
+                color: #006037;
+
+                span {
+                    font-weight: 800;
+                }
+            }
+
+            .HomeherosectionboxsmallTexts {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin: 20px 0;
+
+                p {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 24.38px;
+                    text-align: center;
+                    color: #FBBA00;
+                }
+            }
+
+            .Homeherosectionsmallboxesmain {
+                display: flex;
+                flex-direction: column;
+                gap: 42px;
+                max-width: 400px;
+                margin: 0 auto;
+
+                .Homeherosectionsmallbox {
+                    border-radius: 10px;
+                    background-color: #006037;
+                    padding: 20px 40px;
+
+                    p {
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #fff;
+                    }
+                }
+
+                .Homeherosectionsmallboxslidermain {
+                    max-width: 290px;
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 8px;
+
+                    .Homeherosectionsmallboxslider {
+                        background-color: #fff;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                        position: relative;
+                        overflow: hidden;
+
+                        &::before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            width: 64px;
+                            height: 100%;
+                            background-color: #006037;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
