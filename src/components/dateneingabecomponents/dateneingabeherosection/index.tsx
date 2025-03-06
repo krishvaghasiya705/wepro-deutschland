@@ -327,7 +327,7 @@ export default function Dateneingabeherosection() {
                   <p>Alles aus einer Hand</p>
                 </div>
               </div>
-              <Link href={"/reciveoffer"}>
+              <Link href={"/receiveoffer"}>
                 <button
                   type="button"
                   className={styles.JaAndNeinbutton}

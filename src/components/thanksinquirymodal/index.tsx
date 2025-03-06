@@ -3,7 +3,13 @@ import styles from "./Thanksinquirymodal.module.scss";
 import Checkicon from "@/assets/icons/Checkicon";
 import Link from "next/link";
 
-export default function Thanksinquirymodal() {
+interface ThanksinquirymodalProp {
+  Buttonlink: any;
+}
+
+export default function Thanksinquirymodal({
+  Buttonlink = "/",
+}: ThanksinquirymodalProp) {
   return (
     <div className={styles.Thanksinquirymodalmain}>
       <div className={styles.Thanksinquirymodalcontainer}>
@@ -19,7 +25,8 @@ export default function Thanksinquirymodal() {
             kostenlose und unverbindliche Photovoltaik-Beratung erhalten.
           </p>
         </div>
-        <Link href={"/howoffer"}>
+        {/* <Link href={"/howoffer"}> */}
+        <Link href={Buttonlink}>
           <button className={styles.Thanksinquirymodalbutton}>
             Angebots-Score ermitteln
           </button>

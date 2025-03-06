@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Reciveofferherosection.module.scss";
+import Link from "next/link";
 
 export default function Reciveofferherosection() {
   return (
@@ -11,9 +12,11 @@ export default function Reciveofferherosection() {
           <input type="text" placeholder="E-Mail" />
           <input type="text" placeholder="Telefon" />
         </div>
-        <div className={styles.Gmbhherosectionsmallbox}>
-          <p>Weiter</p>
-        </div>
+        <Link href={"/thanksinquiry"}>
+          <div className={styles.Gmbhherosectionsmallbox}>
+            <p>Weiter</p>
+          </div>
+        </Link>
         <div className={styles.Gmbhherosectionsmallboxslidermain}>
           <div className={styles.Gmbhherosectionsmallboxslider}></div>
         </div>

@@ -27,7 +27,7 @@ export default function Angebothochladenherosection() {
               </p>
             </div>
             <div className={styles.Angebothochladenherosectionsmallboxesmain}>
-              <Link href="/hochladen">
+              <Link href="/important">
                 <div className={styles.Angebothochladenherosectionsmallbox}>
                   <p>Angebote hochladen</p>
                   <div

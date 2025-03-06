@@ -5,8 +5,7 @@ import React from "react";
 export default function Reciveoffer() {
   return (
     <>
-      {/* <Reciveofferherosection /> */}
-      <Thanksinquirymodal />
+      <Reciveofferherosection />
     </>
   );
 }
