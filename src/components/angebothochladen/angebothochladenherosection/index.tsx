@@ -48,7 +48,7 @@ export default function Angebothochladenherosection() {
                 </div>
               </div>
               <span>oder</span>
-              <Link href="/hochladen">
+              <Link href="/dateneingabe">
                 <div className={styles.Angebothochladenherosectionsmallboxlast}>
                   <p>Daten manuell eingeben</p>
                 </div>

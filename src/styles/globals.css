@@ -52,7 +52,7 @@ body {
   background-image: url("../assets/image/bgimage.jpg");
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   height: 100%;
 }
 
