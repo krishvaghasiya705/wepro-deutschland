@@ -8,6 +8,7 @@
     .Angeherosection {
         display: flex;
         justify-content: center;
+        padding: 0 20px;
 
         .Angeherosectionboxmain {
             width: 100%;
@@ -24,6 +25,16 @@
                 span {
                     font-weight: 800;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+
+                @media (max-width:576px) {
+                    font-size: 28px;
+                    line-height: 30px;
+                }
             }
 
             .AngeherosectionboxsmallTexts {
@@ -39,6 +50,15 @@
                     line-height: 24.38px;
                     text-align: center;
                     color: #FBBA00;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -54,6 +74,10 @@
                     background-color: #FBBA00;
                     padding: 20px 40px;
 
+                    @media (max-width:576px) {
+                        padding: 15px 20px;
+                    }
+
                     p {
                         font-family: "Montserrat", sans-serif;
                         font-weight: 300;
@@ -61,16 +85,31 @@
                         line-height: 24px;
                         text-align: center;
                         color: #006037;
-                        
+
                         span {
                             font-weight: 700;
                         }
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
                 }
+
                 .Angeherosectionsmallboxsecond {
                     border-radius: 10px;
                     background-color: #006037;
                     padding: 20px 40px;
+
+                    @media (max-width:576px) {
+                        height: 50px;
+                        padding: 15px 20px;
+                    }
 
                     p {
                         font-family: "Montserrat", sans-serif;
@@ -79,6 +118,15 @@
                         line-height: 24px;
                         text-align: center;
                         color: #fff;
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
                 }
 

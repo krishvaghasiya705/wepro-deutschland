@@ -8,6 +8,7 @@
     .Homeherosection {
         display: flex;
         justify-content: center;
+        padding: 0 20px;
 
         .Homeherosectionboxmain {
             width: 100%;
@@ -24,6 +25,16 @@
                 span {
                     font-weight: 800;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+
+                @media (max-width:576px) {
+                    font-size: 28px;
+                    line-height: 30px;
+                }
             }
 
             .HomeherosectionboxsmallTexts {
@@ -39,6 +50,15 @@
                     line-height: 24.38px;
                     text-align: center;
                     color: #FBBA00;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -49,10 +69,22 @@
                 max-width: 400px;
                 margin: 0 auto;
 
+                @media (max-width:768px) {
+                    gap: 32px;
+                }
+
+                @media (max-width:576px) {
+                    gap: 20px;
+                }
+
                 .Homeherosectionsmallbox {
                     border-radius: 10px;
                     background-color: #006037;
                     padding: 20px 40px;
+
+                    @media (max-width:576px) {
+                        padding: 15px 20px;
+                    }
 
                     p {
                         font-family: "Montserrat", sans-serif;
@@ -61,6 +93,15 @@
                         line-height: 24px;
                         text-align: center;
                         color: #fff;
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
                 }
 
@@ -93,4 +134,9 @@
             }
         }
     }
+}
+
+.commonbuttonalign {
+    max-width: 400px;
+    margin: 0 auto;
 }

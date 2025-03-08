@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Homeherosection.module.scss";
 import Link from "next/link";
+import CommonButton from "@/components/commonbutton/commonbutton";
+import Checkicon from "@/assets/icons/Checkicon";
 
 export default function Homeherosection() {
   return (
@@ -34,6 +36,17 @@ export default function Homeherosection() {
           </div>
         </div>
       </div>
+      {/* <div className={styles.commonbuttonalign}>
+        <CommonButton
+          text="button text"
+          icon={<Checkicon />}
+          ButtonclassName="commonbutton"
+          classNameText="textlight"
+          disabled={false}
+          type="button"
+          variant="success"
+        />
+      </div> */}
     </>
   );
 }

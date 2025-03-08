@@ -4,6 +4,7 @@
     .DateneingabeherosectionVerkassetitle {
         max-width: 606px;
         margin: 0 auto;
+        padding: 0 20px;
 
         h1 {
             font-family: "Montserrat", sans-serif;
@@ -12,7 +13,17 @@
             line-height: 48px;
             text-align: center;
             color: #006037;
-            margin: 0 0 20px 0
+            margin: 0 0 20px 0;
+
+            @media (max-width:768px) {
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            @media (max-width:576px) {
+                font-size: 28px;
+                line-height: 30px;
+            }
         }
 
         p {
@@ -23,6 +34,16 @@
             text-align: center;
             color: #006037;
             margin: 0 0 36px 0;
+
+            @media (max-width:768px) {
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            @media (max-width:576px) {
+                font-size: 16px;
+                margin: 0 0 25px 0;
+            }
         }
     }
 
@@ -90,6 +111,15 @@
                     font-size: 20px;
                     line-height: 24px;
                     color: #006037;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
         }

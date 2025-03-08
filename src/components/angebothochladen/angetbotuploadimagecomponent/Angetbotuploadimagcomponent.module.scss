@@ -1,12 +1,22 @@
 .Angetbotuploadimagcomponentmain {
     max-width: 302px;
     margin: 0 auto;
+    padding: 0 20px;
+
+    @media (max-width:576px) {
+        max-width: none;
+    }
 
     .Angetbotuploadimagcomponent {
         display: grid;
         grid-template-columns: 1fr 90px;
         gap: 20px;
         height: 124px;
+
+        @media (max-width:576px) {
+            grid-template-columns: 1fr;
+            height: auto;
+        }
 
         .Angetbotuploadimagdiv {
             width: 100%;
@@ -18,6 +28,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            padding: 20px;
 
             .Angetbotuploadimagdivicon {
                 width: 50px;
@@ -26,6 +37,11 @@
                 svg {
                     width: 100%;
                     height: 100%;
+                }
+
+                @media (max-width:576px) {
+                    width: 40px;
+                    height: 40px;
                 }
             }
 
@@ -62,10 +78,21 @@
             opacity: .2;
             position: relative;
             cursor: pointer;
+            padding: 20px;
 
             .Angetbotuploadimagcomponentblankicondiv {
                 width: 50px;
                 height: 50px;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (max-width:576px) {
+                    width: 40px;
+                    height: 40px;
+                }
             }
 
             input {

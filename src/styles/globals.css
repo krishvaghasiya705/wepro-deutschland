@@ -58,6 +58,7 @@ body {
 
 .layout-main {
   background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0.72) 100%);
+  /* height: calc(100% - 101px - 278px); */
   /* height: 100%; */
   /* height: calc(100vh - 101px - 278px); */
 }

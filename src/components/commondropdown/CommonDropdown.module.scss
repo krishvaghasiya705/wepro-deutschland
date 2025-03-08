@@ -8,6 +8,10 @@
         background-color: #fff;
         border-radius: 5px;
 
+        @media (max-width:576px) {
+            padding: 15px 20px;
+        }
+
         .CommonDropdownmainboxalignment {
             display: flex;
             justify-content: space-between;

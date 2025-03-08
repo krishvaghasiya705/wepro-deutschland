@@ -2,6 +2,10 @@
     background-color: #fff;
     padding: 59px 0;
 
+    @media (max-width:576px) {
+        align-items: 40px 0;
+    }
+
     .footercontainer {
         max-width: 1130px;
         margin: 0 auto;
@@ -14,11 +18,20 @@
                 justify-content: center;
                 gap: 16px;
                 margin: 0 0 20px 0;
+                flex-wrap: wrap;
+
+                @media (max-width:576px) {
+                    gap: 10px;
+                }
 
                 .footertoptagsflex {
                     display: flex;
                     align-items: center;
                     gap: 20px;
+
+                    @media (max-width:576px) {
+                        gap: 10px;
+                    }
 
                     .footertruicondiv {
                         width: 24px;
@@ -36,6 +49,15 @@
                         font-size: 20px;
                         line-height: 24px;
                         color: #8E8E8E;
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -53,6 +75,15 @@
                     line-height: 24px;
                     text-align: center;
                     color: #000000;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -64,6 +95,15 @@
                     line-height: 24px;
                     text-align: center;
                     color: #8E8E8E;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
         }

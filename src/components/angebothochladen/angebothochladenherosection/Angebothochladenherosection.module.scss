@@ -8,6 +8,7 @@
     .Angebothochladenherosection {
         display: flex;
         justify-content: center;
+        padding: 0 20px;
 
         .Angebothochladenherosectionboxmain {
             width: 100%;
@@ -24,6 +25,16 @@
                 span {
                     font-weight: 800;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+
+                @media (max-width:576px) {
+                    font-size: 28px;
+                    line-height: 30px;
+                }
             }
 
             .AngebothochladenherosectionboxsmallTexts {
@@ -31,6 +42,10 @@
                 flex-direction: column;
                 gap: 8px;
                 margin: 50px 0 20px 0;
+
+                @media (max-width:576px) {
+                    margin: 20px 0;
+                }
 
                 p {
                     font-family: "Montserrat", sans-serif;
@@ -43,6 +58,15 @@
                     span {
                         font-weight: 800;
                     }
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -52,6 +76,14 @@
                 gap: 20px;
                 width: 100%;
                 margin: 0 17px;
+
+                @media (max-width:768px) {
+                    margin: 0;
+                }
+
+                @media (max-width:576px) {
+                    gap: 10px;
+                }
 
                 .Angebothochladenherosectionsmallbox {
                     border-radius: 10px;
@@ -63,13 +95,26 @@
                     gap: 10px;
                     cursor: pointer;
 
+                    @media (max-width:576px) {
+                        height: 50px;
+                        padding: 15px 20px;
+                    }
+
                     p {
                         font-family: "Montserrat", sans-serif;
                         font-weight: 700;
                         font-size: 20px;
                         line-height: 24px;
-                        text-align: center;
                         color: #fff;
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
 
                     .Angebothochladenherosectionsmallboxicon {
@@ -92,13 +137,26 @@
                     align-items: center;
                     gap: 10px;
 
+                    @media (max-width:576px) {
+                        padding: 15px 20px;
+                        margin: 0 0 10px 0;
+                    }
+
                     p {
                         font-family: "Montserrat", sans-serif;
                         font-weight: 700;
                         font-size: 20px;
                         line-height: 24px;
-                        text-align: center;
                         color: #fff;
+
+                        @media (max-width:768px) {
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        @media (max-width:576px) {
+                            font-size: 16px;
+                        }
                     }
                 }
 
@@ -110,6 +168,15 @@
                     text-align: center;
                     color: #006037;
                     display: block;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        font-size: 16px;
+                    }
                 }
 
                 .Angebothochladenherosectionsmallboxslidermain {

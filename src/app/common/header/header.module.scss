@@ -10,6 +10,13 @@
 
     .headerlogo {
         width: 163px;
-        height: 45px;
+
+        @media (max-width:576px) {
+            width: 150px;
+        }
+    }
+
+    @media  (max-width:576px) {
+        padding: 18px 20px;
     }
 }

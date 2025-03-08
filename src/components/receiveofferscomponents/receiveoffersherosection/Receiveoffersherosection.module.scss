@@ -4,6 +4,7 @@
     .Receiveoffersherosectiontitle {
         padding: 0 20px;
         margin: 0 0 20px 0;
+
         h1 {
             font-family: "Montserrat", sans-serif;
             font-weight: 800;
@@ -11,6 +12,16 @@
             line-height: 100%;
             text-align: center;
             color: #006037;
+
+            @media (max-width:768px) {
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            @media (max-width:576px) {
+                font-size: 28px;
+                line-height: 30px;
+            }
         }
     }
 
@@ -52,6 +63,18 @@
                     outline: none;
                     border: none;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @media (max-width:576px) {
+                    padding: 15px 20px;
+                    max-width: none;
+                    font-size: 16px;
+                    height: 50px;
+                }
             }
         }
 
@@ -60,6 +83,10 @@
             grid-template-columns: 1fr 156px;
             gap: 10px;
             align-items: center;
+
+            @media (max-width:576px) {
+                grid-template-columns: 1fr;
+            }
 
             input {
                 width: 100%;
@@ -85,6 +112,18 @@
                 &:focus {
                     outline: none;
                     border: none;
+                }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @media (max-width:576px) {
+                    padding: 15px 20px;
+                    max-width: none;
+                    font-size: 16px;
+                    height: 50px;
                 }
             }
 
@@ -123,6 +162,18 @@
                     outline: none;
                     border: none;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @media (max-width:576px) {
+                    padding: 15px 20px;
+                    max-width: none;
+                    font-size: 16px;
+                    height: 50px;
+                }
             }
         }
 
@@ -130,6 +181,14 @@
             display: flex;
             flex-direction: column;
             gap: 42px;
+
+            @media (max-width:768px) {
+                gap: 32px;
+            }
+
+            @media (max-width:576px) {
+                gap: 20px;
+            }
 
             input {
                 width: 100%;
@@ -156,6 +215,18 @@
                     outline: none;
                     border: none;
                 }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @media (max-width:576px) {
+                    padding: 15px 20px;
+                    max-width: none;
+                    font-size: 16px;
+                    height: 50px;
+                }
             }
         }
 
@@ -165,6 +236,10 @@
             padding: 20px 40px;
             cursor: pointer;
 
+            @media (max-width:576px) {
+                padding: 15px 20px;
+            }
+
             p {
                 font-family: "Montserrat", sans-serif;
                 font-weight: 700;
@@ -172,6 +247,15 @@
                 line-height: 24px;
                 text-align: center;
                 color: #fff;
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                @media (max-width:576px) {
+                    font-size: 16px;
+                }
             }
         }
 

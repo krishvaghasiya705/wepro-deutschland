@@ -10,11 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 
     .Commonmodalboxmain {
         width: auto;
         position: relative;
         padding: 16px 16px 0 0;
+
+        @media (max-width:576px) {
+            width: 100%;
+        }
 
         .Commonmodalcrossicon {
             position: absolute;
@@ -41,6 +46,10 @@
             border-radius: 20px;
             padding: 60px;
 
+            @media (max-width:768px) {
+                padding: 30px;
+            }
+
             h1 {
                 font-family: "Montserrat", sans-serif;
                 font-weight: 800;
@@ -49,6 +58,18 @@
                 text-align: center;
                 color: #006037;
                 margin: 0 0 40px 0;
+
+                @media (max-width:768px) {
+                    font-size: 28px;
+                    line-height: 33px;
+                    margin: 0 0 30px 0;
+                }
+
+                @media (max-width:576px) {
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin: 0 0 20px 0;
+                }
             }
 
             .Commonmodaltwobuttonmain {
@@ -57,6 +78,11 @@
                 align-items: center;
                 gap: 10px;
                 margin: 40px 0 0 0;
+
+                @media (max-width:576px) {
+                    flex-direction: column;
+                    margin: 30px 0 0 0;
+                }
 
                 button {
                     width: 100%;
@@ -72,6 +98,18 @@
                     cursor: pointer;
                     border: 2px solid transparent;
                     transition: all 0.3s ease-in-out;
+
+                    @media (max-width:768px) {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    @media (max-width:576px) {
+                        padding: 15px 20px;
+                        max-width: none;
+                        font-size: 16px;
+                        height: 50px;
+                    }
                 }
 
                 .Commonmodaltwobuttonone {
@@ -83,6 +121,7 @@
                         border-color: #000;
                     }
                 }
+
                 .Commonmodaltwobuttontwo {
                     background-color: #006037;
 
